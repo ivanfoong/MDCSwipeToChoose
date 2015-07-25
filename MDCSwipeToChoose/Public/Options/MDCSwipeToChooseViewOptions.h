@@ -43,6 +43,12 @@
 @property (nonatomic, copy) NSString *likedText;
 
 /*!
+ * The font of text displayed in the `likedView`. A default value is provided in the
+ * `-init` method.
+ */
+@property (nonatomic, copy) UIFont *likedTextFont;
+
+/*!
  * The color of the text and border of the `likedView`. A default value is provided in the
  * `-init` method.
  */
@@ -65,6 +71,12 @@
  * `-init` method.
  */
 @property (nonatomic, copy) NSString *nopeText;
+
+/*!
+ * The font of text displayed in the `nopeView`. A default value is provided in the
+ * `-init` method.
+ */
+@property (nonatomic, copy) UIFont *nopeTextFont;
 
 /*!
  * The color of the text and border of the `nopeView`. A default value is provided in the
